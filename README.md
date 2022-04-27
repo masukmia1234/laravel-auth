@@ -23,8 +23,11 @@ Once the laravel/ui package has been installed, you may install the frontend sca
 
 // Generate basic scaffolding...
 php artisan ui bootstrap
+
 php artisan ui vue
+
 php artisan ui react
+
 ==============================
 
 // Generate login / registration scaffolding...
@@ -89,9 +92,12 @@ composer require laravel/ui
 // Generate basic scaffolding...
 php artisan ui react
 
+
 // Generate login / registration scaffolding...
 php artisan ui react --auth
+
 Adding Presets
+
 Presets are "macroable", which allows you to add additional methods to the UiCommand class at runtime. For example, the following code adds a nextjs method to the UiCommand class. Typically, you should declare preset macros in a service provider:
 
 use Laravel\Ui\UiCommand;
