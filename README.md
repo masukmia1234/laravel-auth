@@ -26,10 +26,12 @@ php artisan ui bootstrap
 php artisan ui vue
 php artisan ui react
 
+
 // Generate login / registration scaffolding...
 php artisan ui bootstrap --auth
 php artisan ui vue --auth
 php artisan ui react --auth
+
 CSS
 Laravel Mix provides a clean, expressive API over compiling SASS or Less, which are extensions of plain CSS that add variables, mixins, and other powerful features that make working with CSS much more enjoyable. In this document, we will briefly discuss CSS compilation in general; however, you should consult the full Laravel Mix documentation for more information on compiling SASS or Less.
 
